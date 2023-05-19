@@ -1,0 +1,55 @@
+Day 1 - (Recursion + Memoization)
+
+•  Recursion is a concept in prograamming when a fuction calls itself.
+   
+    Eg -  function abc() {
+            if(condition) { //A base case to avoid stack-overflow
+            }
+
+            abc();       
+          }
+
+
+•  Why do we need recursion anyways if we have the iterative approach ?
+
+   ans - Recursion is made for solving problems that can be broken down into smaller, repetitive problems. 
+         It is especially good for working on things that have many possible branches and are too complex 
+         for an iterative approach.
+
+
+
+•  Is recursion more space than iteration ?
+   ans - In general, the space complexity of a recursive approach can be higher than that of an iterative 
+         approach. Recursion often requires additional space to store the function call stack, as each 
+         recursive call adds a new stack frame. This can result in increased memory usage, especially in 
+         scenarios with a large number of recursive calls or deep recursion.
+         
+         On the other hand, iterative approaches typically don't rely on the call stack and can have lower 
+         space requirements. They often use loops or data structures like queues or stacks to achieve the 
+         desired result.
+
+
+
+•  If recursion is slower, why use it ?
+   ans - This can be explained via space-time tradeoff.
+         A space-time tradeoff is like having a toy. If you want it to do things quickly, 
+         you need to use more memory, but then you won't have as much space for other things. 
+         If you want more space, it might take longer for the toy to finish each action. 
+         It's about balancing between using more memory for speed or using less memory for more space but 
+         slower performance.
+
+         Bonus reason :- Recursive codes are much simpler as we tend to solve sub-problems repetitively to 
+         get to the bigger problem. 
+
+
+•   What is Memoization ?
+
+   ans - Memoization is a technique that optimizes function execution by storing computed results and reusing 
+         them for the same inputs, saving time and avoiding redundant calculations.
+         It is basically like caching, we store a calcultation after computing it once to use it in the future 
+         so that we don't have to calculate overlapping sub-problems again.
+         Memoization makes solving bigger problem faster by reducing the calculations of overlapping sub-problems.
+
+         Memoization can be done use data-structures like maps and arrays.
+
+
