@@ -18,7 +18,7 @@ Day 1 - (Recursion + Memoization)
 
 
 
-•  Is recursion more space than iteration ?
+•  Does recursion uses more space than iteration ?
    ans - In general, the space complexity of a recursive approach can be higher than that of an iterative 
          approach. Recursion often requires additional space to store the function call stack, as each 
          recursive call adds a new stack frame. This can result in increased memory usage, especially in 
@@ -50,6 +50,6 @@ Day 1 - (Recursion + Memoization)
          so that we don't have to calculate overlapping sub-problems again.
          Memoization makes solving bigger problem faster by reducing the calculations of overlapping sub-problems.
 
-         Memoization can be done use data-structures like maps and arrays.
+         Memoization can be done using data-structures like maps and arrays.
 
 
