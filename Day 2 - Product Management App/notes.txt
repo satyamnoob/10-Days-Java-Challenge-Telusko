@@ -1,0 +1,25 @@
+    Everything in Java is an object.
+A product is an object basically.
+
+Product(Entity) has properties. 
+  - name
+  - type
+  - place
+  - warranty
+
+If you want an object, you create a class first.
+
+In Object Oriented Programming we have a concept called Encapsulation, all your properties should be private.
+The way to access them should be using getters and setters.
+
+To print an object we implement toString method.
+
+Delegation - you dont do everything by yourself. Main will not do everything.
+
+Enhanced for loop
+
+Assignment - 1. Search based on place
+             2. Products out of warranty
+             3. Convert getProductsWithText to stream api
+
+Once you consume a stream, you cannot reuse it. You can only use it once.
